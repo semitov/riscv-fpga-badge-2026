@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "RISC-V Summit Europe Badge")
-		(date "2026-03-29")
-		(rev "v1.54")
+		(date "2026-08-03")
+		(rev "v1.6")
 		(company "SemiTO-V, RISC-V Student Team")
 		(comment 3 "License: CERN-OHL-W-2.0")
-		(comment 4 "Authors: Tan S. Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
+		(comment 4 "Authors: Tan S. Akıncı, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
 		(comment 5 "Contributors: jerrymk")
 	)
 	(lib_symbols
@@ -2834,30 +2834,6 @@
 			)
 		)
 	)
-	(global_label "GPIO26_ADC0"
-		(shape input)
-		(at 177.8 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a001da4-9cde-4165-a552-ec0da9414320")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.4852 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "B13B"
 		(shape input)
 		(at 177.8 106.68 0)
@@ -2871,6 +2847,30 @@
 		(uuid "5e53cb87-7fae-4d88-8e05-56112c5239a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.7442 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO28_ADC2"
+		(shape input)
+		(at 177.8 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63fad4df-449a-4428-9b71-97a6c779e01e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.4852 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3026,30 +3026,6 @@
 			)
 		)
 	)
-	(global_label "GPIO28_ADC2"
-		(shape input)
-		(at 177.8 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "84d57f99-1b39-4eae-b67d-c6a755a4aa38")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.4852 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ROW3"
 		(shape input)
 		(at 29.21 118.11 180)
@@ -3071,6 +3047,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO27_ADC1"
+		(shape input)
+		(at 177.8 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cb2ded2-d262-426c-b2bb-753a23e0dc4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.4852 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO26_ADC0"
+		(shape input)
+		(at 177.8 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8da25e84-0b21-4345-ad8c-bc1939f91e96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.4852 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3183,6 +3207,30 @@
 		(uuid "a3858523-c109-4bfc-acb6-4475d9662263")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.5628 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO29_ADC3"
+		(shape input)
+		(at 177.8 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a63d2429-b8d6-44c1-a5c0-5a5766ba72a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.4852 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3386,30 +3434,6 @@
 			)
 		)
 	)
-	(global_label "GPIO29_ADC3"
-		(shape input)
-		(at 177.8 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc7c14ca-3ba4-413f-b478-4a90543510e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.4852 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ROW1"
 		(shape input)
 		(at 29.21 92.71 180)
@@ -3447,30 +3471,6 @@
 		(uuid "f2d0aa15-c337-4316-8f54-3cbb66036a9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.8652 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO27_ADC1"
-		(shape input)
-		(at 177.8 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5fdfbd5-104c-463e-9ca6-7adc1285b934")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.4852 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

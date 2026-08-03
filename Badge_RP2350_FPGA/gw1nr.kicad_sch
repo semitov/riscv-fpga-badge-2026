@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "RISC-V Summit Europe Badge")
-		(date "2026-03-29")
-		(rev "v1.54")
+		(date "2026-08-03")
+		(rev "v1.6")
 		(company "SemiTO-V, RISC-V Student Team")
 		(comment 3 "License: CERN-OHL-W-2.0")
-		(comment 4 "Authors: Tan S. Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
+		(comment 4 "Authors: Tan S. Akıncı, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2872,6 +2872,12 @@
 		(uuid "9b4f5393-4243-4498-babc-a6abde8080ef")
 	)
 	(junction
+		(at 223.52 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4f5a30a-70f4-4c17-91d3-3c154469b0bc")
+	)
+	(junction
 		(at 227.33 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2988,16 +2994,8 @@
 		(uuid "7d7aff76-8ab5-4b86-ae91-04e01fc45eed")
 	)
 	(no_connect
-		(at 234.95 137.16)
-		(uuid "81090316-8b62-4f52-98b9-a12caa7dcf2d")
-	)
-	(no_connect
 		(at 138.43 128.27)
 		(uuid "85900a11-a205-4941-93cf-7b3e31e4c22a")
-	)
-	(no_connect
-		(at 234.95 134.62)
-		(uuid "889d079f-9003-43ce-a751-3debcb62bfc5")
 	)
 	(no_connect
 		(at 72.39 128.27)
@@ -3407,6 +3405,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 137.16) (xy 234.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cde53d-926b-4024-b5c2-4828f6e68b54")
+	)
+	(wire
+		(pts
 			(xy 44.45 67.31) (xy 44.45 71.12)
 		)
 		(stroke
@@ -3414,6 +3422,26 @@
 			(type default)
 		)
 		(uuid "3d68450e-f27c-482d-b897-51aa6264ee1d")
+	)
+	(wire
+		(pts
+			(xy 223.52 139.7) (xy 223.52 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3d95e5-a5cc-4986-b7cb-45ce425f3103")
+	)
+	(wire
+		(pts
+			(xy 231.14 147.32) (xy 231.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b96c63-a179-428e-a30c-9207a7f58555")
 	)
 	(wire
 		(pts
@@ -3577,6 +3605,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 148.59) (xy 223.52 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693286e0-bd76-4a4e-9bab-6fddfebdf6ce")
+	)
+	(wire
+		(pts
 			(xy 138.43 123.19) (xy 152.4 123.19)
 		)
 		(stroke
@@ -3677,6 +3715,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 147.32) (xy 223.52 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9146c505-1a3c-4c36-a755-771eefd31751")
+	)
+	(wire
+		(pts
 			(xy 264.16 62.23) (xy 260.35 62.23)
 		)
 		(stroke
@@ -3774,6 +3822,16 @@
 			(type default)
 		)
 		(uuid "b2353a3c-e30d-472b-b0da-754522dce17a")
+	)
+	(wire
+		(pts
+			(xy 223.52 134.62) (xy 234.95 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44e0f3f-5b23-49ae-9231-3e95b3976078")
 	)
 	(wire
 		(pts
@@ -3897,6 +3955,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 148.59) (xy 231.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d902b8ff-34e9-49da-a155-02d943e0d9ab")
+	)
+	(wire
+		(pts
 			(xy 59.69 72.39) (xy 72.39 72.39)
 		)
 		(stroke
@@ -3974,6 +4042,16 @@
 			(type default)
 		)
 		(uuid "f5eae181-5a37-4224-999c-1efabbde8349")
+	)
+	(wire
+		(pts
+			(xy 231.14 139.7) (xy 231.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab0cb8b-98f0-45b3-ae3f-dab6458af68d")
 	)
 	(wire
 		(pts
@@ -5800,6 +5878,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 223.52 143.51 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7637007e-b5ef-40c5-b631-44c7baa383d6")
+		(property "Reference" "R21"
+			(at 218.44 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 218.44 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 225.298 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b77cb8ba-8e3e-4736-a783-df2fab61e1ae")
+		)
+		(pin "1"
+			(uuid "7be5d9c9-cd69-41c5-bfb3-4d4522e705c3")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 82.55 0)
 		(unit 1)
@@ -6778,6 +6937,84 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 223.52 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0699170-addd-4cda-bd91-c14f6e043751")
+		(property "Reference" "#PWR073"
+			(at 223.52 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC00_1_2_3V3"
+			(at 223.52 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 223.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5c095ee-33c4-4f40-9b78-f7d8db723a23")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 144.78 54.61 270)
 		(unit 1)
 		(body_style 1)
@@ -6850,6 +7087,87 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 143.51 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5609b9b-713b-4f9b-bd8b-68f44a608031")
+		(property "Reference" "R22"
+			(at 226.06 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 226.06 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 232.918 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f090997-b377-4baa-b140-0b2a14166f34")
+		)
+		(pin "1"
+			(uuid "578895a9-b1d7-4da6-9612-20610d35d2a6")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
+					(reference "R22")
 					(unit 1)
 				)
 			)
