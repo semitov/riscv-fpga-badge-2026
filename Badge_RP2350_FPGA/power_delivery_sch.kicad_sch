@@ -1818,6 +1818,213 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:TPS61221DCK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS61221DCK"
+				(at 2.54 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps61220.pdf"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400 mA Step-Up Converter, Fixed 3.3V Output Voltage, 0.7-5.5V Input Voltage, SC-70"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Boost adjustable converter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Texas*R*PDSO*G6*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS61221DCK_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS61221DCK_1_1"
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mylibrary:ME6211C12"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2792,6 +2999,12 @@
 		(uuid "3dd79e52-ed95-44b0-974c-28683c2d21ac")
 	)
 	(junction
+		(at 228.6 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45b45c1d-e34f-4f32-9c6d-92e59f74c800")
+	)
+	(junction
 		(at 140.97 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2898,6 +3111,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5926ca1-0f90-433e-9fdb-e439e172c6b3")
+	)
+	(junction
+		(at 254 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb2eecb6-725c-40dc-a03a-8baa8c0451ec")
 	)
 	(junction
 		(at 60.96 44.45)
@@ -3059,6 +3278,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 129.54) (xy 231.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e9d135-e2b9-4e23-b275-2f237c58f446")
+	)
+	(wire
+		(pts
 			(xy 102.87 176.53) (xy 110.49 176.53)
 		)
 		(stroke
@@ -3109,7 +3338,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 127) (xy 223.52 127)
+			(xy 223.52 127) (xy 228.6 127)
 		)
 		(stroke
 			(width 0)
@@ -3176,6 +3405,16 @@
 			(type default)
 		)
 		(uuid "2fa7f89f-416b-4021-9d1f-e48ade35d1ce")
+	)
+	(wire
+		(pts
+			(xy 254 124.46) (xy 251.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3456a938-9e3b-45df-a07e-1d646ceff8f1")
 	)
 	(wire
 		(pts
@@ -3769,6 +4008,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 129.54) (xy 254 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20b4873-a1ae-4190-8b24-deb4fcb5238e")
+	)
+	(wire
+		(pts
+			(xy 241.3 134.62) (xy 241.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2363118-7a7a-481a-bf46-9ac7e7ccaa49")
+	)
+	(wire
+		(pts
 			(xy 107.95 71.12) (xy 107.95 76.2)
 		)
 		(stroke
@@ -3776,6 +4035,16 @@
 			(type default)
 		)
 		(uuid "b574de6b-d725-4e64-8b56-42b9efa91243")
+	)
+	(wire
+		(pts
+			(xy 228.6 127) (xy 228.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c6776f-072d-4126-af3c-844a46fdbbef")
 	)
 	(wire
 		(pts
@@ -3859,6 +4128,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 124.46) (xy 254 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b8e72e-a504-4b81-80da-91abc5a9a2de")
+	)
+	(wire
+		(pts
 			(xy 134.62 35.56) (xy 194.31 35.56)
 		)
 		(stroke
@@ -3866,6 +4145,16 @@
 			(type default)
 		)
 		(uuid "ca2258bf-4199-4e46-8af0-a3e2191f0950")
+	)
+	(wire
+		(pts
+			(xy 228.6 127) (xy 231.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6af14c-52be-4623-808f-f7f607e3325f")
 	)
 	(wire
 		(pts
@@ -3986,6 +4275,16 @@
 			(type default)
 		)
 		(uuid "dccfa176-f428-4f36-8744-92f33d3c4f17")
+	)
+	(wire
+		(pts
+			(xy 255.27 124.46) (xy 254 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de97c4df-6d13-43f1-a299-db0f063ef38d")
 	)
 	(wire
 		(pts
@@ -7097,6 +7396,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:TPS61221DCK")
+		(at 241.3 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adac72a2-0c5b-4ff2-99b7-c4f5024c189c")
+		(property "Reference" "U8"
+			(at 241.3 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS61221DCK"
+			(at 241.3 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps61220.pdf"
+			(at 241.3 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400 mA Step-Up Converter, Fixed 3.3V Output Voltage, 0.7-5.5V Input Voltage, SC-70"
+			(at 241.3 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3844704c-f375-40fb-8e98-e031344f97ef")
+		)
+		(pin "2"
+			(uuid "8fc237bc-b1c5-4bff-8646-ecc3fe177abd")
+		)
+		(pin "4"
+			(uuid "843831c6-a81e-4e51-8b54-9180b51612b0")
+		)
+		(pin "1"
+			(uuid "64c2b5c6-0fae-465f-b894-c43af3c95bf5")
+		)
+		(pin "6"
+			(uuid "e0c09aa5-1374-4353-9797-a7172a22c7e1")
+		)
+		(pin "5"
+			(uuid "c0741469-d288-414c-b478-6b9211ba8f78")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adfe84e1-f2e5-44d8-b5da-3d9f6cbeea30")
+		(property "Reference" "#PWR075"
+			(at 241.3 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd9a7fcb-698f-44f5-89af-893fcd45c7eb")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 147.32 45.72 270)
 		(unit 1)
@@ -7176,84 +7645,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 227.33 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b4a691c2-687e-4b25-bd63-7d1bc9144060")
-		(property "Reference" "#PWR055"
-			(at 223.52 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 230.124 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 227.33 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b6dea7a-9945-4312-8ca4-cc0e1e0ae922")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 160.02 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -7325,6 +7716,84 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 255.27 124.46 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b63f35ea-e63a-4f89-8953-64abe2c2e789")
+		(property "Reference" "#PWR055"
+			(at 251.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 258.064 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92bd19ab-5e4b-4cb0-97f4-cbc81257452a")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

@@ -3395,7 +3395,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 59.69) (xy 152.4 59.69)
+			(xy 138.43 59.69) (xy 153.67 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3785,7 +3785,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 62.23) (xy 152.4 62.23)
+			(xy 138.43 62.23) (xy 153.67 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4189,7 +4189,7 @@
 	)
 	(global_label "MODE1"
 		(shape input)
-		(at 152.4 62.23 0)
+		(at 153.67 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4199,7 +4199,7 @@
 		)
 		(uuid "1bf132d6-d1b5-44f3-9f1c-59631919d4a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7956 62.23 0)
+			(at 163.0656 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4309,7 +4309,7 @@
 	)
 	(global_label "MODE0"
 		(shape input)
-		(at 152.4 59.69 0)
+		(at 153.67 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4319,7 +4319,7 @@
 		)
 		(uuid "38ee6177-31e2-4131-a25c-df95f0688614")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7956 59.69 0)
+			(at 163.0656 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
